@@ -1,0 +1,44 @@
+# Build artifacts
+build/
+out/
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CMakeUserPresets.json
+compile_commands.json
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+.DS_Store
+
+# Model files (large)
+models/*.gguf
+models/*.bin
+
+# Database files (runtime)
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+crash.log
+
+# Temp
+*.tmp
+*.swp
+*~
